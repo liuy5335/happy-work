@@ -1,0 +1,186 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "微软雅黑"; }
+
+.title {
+  width: 100%;
+  text-align: center;
+  height: 3px;
+  padding-top: 90px;
+  margin-bottom: 106px; }
+  .title h3 {
+    color: #FFFFFF; }
+
+.home-section {
+  width: 100%; }
+
+.box {
+  width: 100%; }
+  .box img {
+    width: 100%;
+    height: 100%; }
+
+.home-button {
+  border-radius: 50px; }
+
+.h-button {
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 60px; }
+
+.tilte-wrap {
+  width: 100%;
+  height: 100%;
+  background: url("../img/background.jpg"); }
+
+.info-wrap {
+  width: 100%;
+  height: 100%;
+  background: url("../img/backgr.jpg");
+  -webkit-background-size: 100% 100%;
+  padding-left: 31px;
+  padding-right: 31px; }
+
+.content {
+  width: 100%;
+  height: 100%; }
+
+.info-title {
+  padding-top: 75px;
+  padding-bottom: 51px;
+  width: 100%;
+  text-align: center; }
+  .info-title h3, .info-title h4 {
+    color: #FFFFFF; }
+
+.info-list {
+  margin-bottom: 180px; }
+  .info-list input {
+    background: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px; }
+
+.info-button-two button {
+  color: #FFFFFF;
+  width: 49%; }
+  .info-button-two button:first-child {
+    background: #3c4db3;
+    border-radius: 50px 0 0 50px; }
+  .info-button-two button:last-child {
+    background: #e2402b;
+    border-radius: 0 50px 50px 0; }
+
+.info-footer {
+  width: 100%;
+  text-align: center; }
+  .info-footer button {
+    color: #FFFFFF !important; }
+
+.profile-wrap {
+  width: 100%;
+  height: 100%;
+  background: url("../img/background3.png");
+  -webkit-background-size: 100% 100%; }
+
+.profile-header, .profile-header {
+  background: rgba(255, 255, 255, 0);
+  color: #FFFFFF; }
+  .profile-header button, .profile-header button {
+    color: #FFFFFF; }
+
+.profile-title {
+  overflow: visible !important;
+  padding-top: 0 !important;
+  width: 65%; }
+
+.profile-footer a {
+  border-right: 1px solid #ccc;
+  color: #201b26 !important; }
+
+.profile-section {
+  padding-top: 400px;
+  text-align: center;
+  color: #FFFFFF; }
+  .profile-section h4 {
+    color: #FFFFFF; }
+  .profile-section b {
+    font-size: 16px; }
+  .profile-section span {
+    font-size: 12px; }
+  .profile-section a {
+    border-radius: 60px;
+    width: 40%;
+    margin: 0 auto;
+    background: #d60dc0 !important; }
+
+.profileTwo-wrap {
+  width: 100%;
+  height: 100%;
+  background: url("../img/Profile_dui_01.jpg") no-repeat;
+  -webkit-background-size: 100% auto; }
+
+.profileTwo-list {
+  padding-top: 180px; }
+  .profileTwo-list div {
+    text-align: center; }
+
+.profileTwo-span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 0; }
+  .profileTwo-span img {
+    width: 100%;
+    height: 100%; }
+
+.profileTwo-section {
+  text-align: center; }
+  .profileTwo-section a {
+    border-radius: 60px;
+    width: 40%;
+    margin: 0 auto;
+    background: #5ed30d !important; }
+  .profileTwo-section h4 {
+    font-weight: 600; }
+
+.profileTwo-row div:first-child, .profileTwo-row div:last-child {
+  margin-top: 70px; }
+  .profileTwo-row div:first-child b, .profileTwo-row div:last-child b {
+    font-size: 16px;
+    font-weight: 600; }
+  .profileTwo-row div:first-child span, .profileTwo-row div:last-child span {
+    font-size: 12px; }
+
+.profileTwo-imglist div img {
+  width: 100%; }
+
+.social-input {
+  padding-top: 44px; }
+  .social-input input {
+    background: none; }
+  .social-input label {
+    height: 30px;
+    width: 90%;
+    border-radius: 50px;
+    margin: 12px auto; }
+
+.social-row div {
+  text-align: center;
+  padding-top: 30px; }
+  .social-row div img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px; }
+
+
+/*# sourceMappingURL=style.css.map */

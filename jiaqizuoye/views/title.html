@@ -1,0 +1,36 @@
+<div class="tilte-wrap">
+<div class="title">
+    <h3>Start the Journey</h3>
+    <h3>by Avital</h3>
+</div>
+
+<ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="true" class="home-section"
+               slide-interval=2000 show-pager="true" pager-click="pageClick(index)"
+               active-slide="model.activeIndex" delegate-handle="delegateHandler" ng-click="coverFlowClick()">
+    <ion-slide>
+        <div class="box">
+            <img src="./img/banner_02.jpg">
+        </div>
+    </ion-slide>
+    <ion-slide>
+        <div class="box">
+            <img src="./img/banner_02.jpg">
+        </div>
+    </ion-slide>
+    <ion-slide>
+        <div class="box">
+            <img src="./img/banner_02.jpg">
+        </div>
+    </ion-slide>
+    <ion-slide>
+        <div class="box">
+            <img src="./img/banner_02.jpg">
+        </div>
+    </ion-slide>
+</ion-slide-box>
+<div class="h-button">
+    <button class="button button-block button-positive home-button" ui-sref="info">
+        LOCIN NOW
+    </button>
+</div>
+</div>

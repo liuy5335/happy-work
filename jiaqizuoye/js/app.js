@@ -1,0 +1,29 @@
+var app=angular.module("mapp",["ionic"])
+.config(function($stateProvider,$urlRouterProvider){
+        $urlRouterProvider.otherwise("title")
+        $stateProvider.state("info",{
+            url:"/info",
+            templateUrl:"views/info.html"
+        })
+            .state("title",{
+                url:"/title",
+                templateUrl:"views/title.html"
+            })
+            .state("register",{
+                url:"/register",
+                templateUrl:"views/register.html"
+            })
+            .state("profile",{
+                url:"/profile",
+                templateUrl:"views/profile.html"
+            })
+            .state("profileTwo",{
+                url:"/profileTwo",
+                templateUrl:"views/profileTwo.html"
+            })
+            .state("social",{
+                url:"/social",
+                templateUrl:"views/social.html"
+            })
+            
+    });
